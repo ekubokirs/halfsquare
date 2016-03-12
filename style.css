@@ -1,0 +1,16 @@
+.wrapper{
+  border: solid black 5px;
+  /*border-left: solid black 1px;*/
+  box-sizing: content-box;
+  width: 500px;
+}
+.logo{
+  height: 500px;
+  width: 498px;
+  box-sizing:border-box;
+  /*background-color: black;*/
+  border-bottom: solid 250px black;
+  border-left: solid 250px black;
+  border-top: solid 250px white;
+  border-right: solid 250px white;
+}
