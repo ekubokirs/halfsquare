@@ -34,7 +34,7 @@
   overflow: hidden;
   position: relative;
   margin: 0 auto;
-  width: 40em; height: 27em;
+  width: 500px; height: 500px;
 }
 .option, .option img { width: 100%; height: 100%; }
 .option {
@@ -43,7 +43,8 @@
   /* arctan(27 / 40) = 34.01935deg 
    * need to skew by 90deg - 34.01935deg = 55.98065deg
   */
-  transform: skewX(-55.98deg);
+  /*transform: skewX(-55.98deg);*/
+  transform: skewX(-45deg);
 }
 .option:first-child {
   /*left: -.25em;*/
@@ -63,7 +64,7 @@
 /*.option img:hover { opacity: 1; }*/
 .option img, .option:after {
   /*border: solid green 10px;*/
-  transform: skewX(55.98deg);
+  /*transform: skewX(55.98deg);*/
   transform-origin: inherit;
 }
 /*.option:after {
